@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+/** Variables */
+:root {
+    /** Colores */
+    --color_beigeBase: #FFF7DB;
+    --color_beige2: #FAEAB1;
+    --color_beige3: #E5BA73;
+    --color_beige4: #C58940;
+    /** Tamaños */
+    /** Margenes y padding */
+}
+
+body {
+     background-color: var(--color_beigeBase);
+}
+
+.container{
+    background-color: var(--color_beigeBase);
+}
+
+nav{
+    background-color: var(--color_beige2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.presenta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.presenta2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 2rem;
+}
+
+.stephen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stephen2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 2rem;
+}
